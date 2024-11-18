@@ -119,6 +119,7 @@
 
 // && - и
 // || - или
+// ! - не
 
 // let num1 = -12;
 // let num2 = 10;
@@ -134,6 +135,7 @@
 // let num1 = +prompt("Введите первое число", 0);
 // let num2 = +prompt("Введите второе число", 0);
 // let num3 = +prompt("Введите третье число", 0);
+
 // if(num1 > num2 && num1 > num3){
 //     console.log(num1)
 // }
@@ -144,3 +146,118 @@
 //     console.log(num3)
 // }
 
+// let user = "Анна";
+// console.log(user ?? "Нет данных");
+
+// Задача с днем недели 1
+// let day = +prompt("Введите значение", 0);
+
+// if(day == 1){
+//     alert("Понедельник")
+// }
+// else if(day == 2){
+//     alert("Вторник")
+// }
+// else if(day == 3){
+//     alert("Среда")
+// }
+// else if(day == 4){
+//     alert("Четверг")
+// }
+// else if(day == 5){
+//     alert("Пятница")
+// }
+//  else if(day == 6){
+//     alert("Суббота")
+// }
+// else if(day == 7){
+//     alert("Воскресенье")
+// }
+// else{
+//     alert("Нет такого дня")
+// }
+
+// Задача с днем недели 2
+// С оператором Switch - обязательно добавлять break для закрытия кейса
+// let day = +prompt("Введите значение", 0);
+
+// switch(day){
+//     case 1:
+//         alert("Понедельник");
+//         break;
+//     case 2:
+//         alert("Вторник");
+//         break;
+//     case 3:
+//         alert("Среда");
+//         break;
+//     case 4:
+//         alert("Четверг");
+//         break;
+//     case 5:
+//         alert("Пятница");
+//         break;
+//     case 6:
+//         alert("Суббота");
+//         break;
+//     case 7:
+//         alert("Воскресенье");
+//         break;
+//     default:
+//         alert("Нет такого дня");
+// }
+
+// Массивы
+
+// 1 способ
+// let array = new Array();
+// array = [1, 2, 3, 4];
+
+// 2 способ
+// let array = ["Апельсин", 77, "Клавиатура", true];
+
+// Методы добавления/удаления данных из массива
+
+// let fruits = ["Яблоко", "Апельсин", "Мандарин"];
+// console.log(fruits);
+// pop - удаляет последний элемент
+// fruits.pop();
+// console.log(fruits);
+// push - добавляет элемент в конец
+// fruits.push("Арбуз");
+// console.log(fruits);
+// shift - удаляет первый элемент
+// fruits.shift();
+// console.log(fruits);
+// unshift - добавляет элемент в начало
+// fruits.unshift("Вишня");
+// console.log(fruits);
+
+// Из str в массив метод split()
+// let names = "Вася, Петя, Маша";
+// let arr = names.split(", ");
+// console.log(arr);
+
+// Из массива в string метод join()
+// let names = ["Вася", "Петя", "Маша"];
+// let str = names.join("-");
+// console.log(str);
+
+// Многомерные массивы
+// let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+// console.log(matrix[1][1]);
+
+// Цикл while()
+// let i = 1;
+// while (i <= 100) {
+//     if(i % 2 == 0){
+//           console.log(i);
+//     }
+//   i++; // i = i + 1
+// }
+
+// Цикл for()
+for(let i = 1; i <= 10; i++){
+    if(i % 2 !=0)
+        {console.log(i);}
+}
