@@ -257,7 +257,70 @@
 // }
 
 // Цикл for()
-for(let i = 1; i <= 10; i++){
-    if(i % 2 !=0)
-        {console.log(i);}
-}
+// for(let i = 1; i <= 10; i++){
+//     if(i % 2 !=0)
+//         {console.log(i);}
+// }
+
+// Break
+// console.log("Начало цикла");
+// for(let i = 1; i <= 10; i++){
+//     if(i == 5){
+//         console.log("continue");
+//         continue;
+//     }
+//     console.log(i);
+// }
+// console.log("Конец цикла");
+
+// for(let i = 1; i <= 5; i++){
+//     alert(i);
+// }
+
+//  Сумма чисел от 1 до 10
+// let sum = 0;
+// for(let i = 1; i <= 10; i++){
+//     sum = sum + i;
+// }
+// console.log(sum);
+
+// От 1 до 10 * 3
+// for(let i = 1; i <= 10; i++){
+//     if(i % 2 == 0){
+//             console.log(`${i} * 3 = ${i*3}`);
+//     }
+// }
+
+
+// Сколько чётных/нечётных
+// let countEven = 0;
+// let countOdd = 0;
+
+// for(let i = 1; i <= 25; i++){
+//     if(i % 2 == 0){
+//         countEven++
+//     }
+//     else{
+//         countOdd++ 
+//     }
+// }
+// console.log("Чётных: " + countEven);
+// console.log("Нечётных: " + countOdd);
+
+// Числа в диапазоне введеном пользователем в квадрате
+// let n = +prompt("Введите число", 0);
+// for(let i = 1; i <= n; i++){
+//     console.log(i*i)
+// }
+
+// Function Expression
+// const writeHello = function(val){
+//     alert("Привет, " + val);
+// }
+// writeHello("Эдуард");
+
+// Function Declaration
+// function writeHello(val){
+//     alert("Привет, "+val);
+// }
+// writeHello("Эдуард");
