@@ -324,3 +324,96 @@
 //     alert("Привет, "+val);
 // }
 // writeHello("Эдуард");
+
+// Методы перебора массива
+// Цикл for
+// i - индекс
+// название_массива[i] - элемент
+
+// const numbersArr = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i < numbersArr.length; i++) {
+//     if (numbersArr[i] % 2 == 0) {
+//         console.log(numbersArr[i])
+//     }
+// }
+
+// Цикл for...of
+// let arrLetters = ['a', 'b', 'c', 'd', 'e'];
+
+// for (let letter of arrLetters) {
+//     console.log(letter);
+// }
+
+// let numbersArr = [1, 2, 3, 4, 5];
+
+// for (let number of numbersArr) {
+//     if (number % 2 == 0) {
+//         console.log(number);
+//     }
+// }
+
+// Цикл forEach
+// const fruits = ["Яблоко", "Банан", "Мандарин", "Груша"];
+
+// fruits.forEach(fr => console.log(fr))
+
+// const names = ["Дмитрий", "Димас", "Димон", "Димаста", "Димитриус"];
+// names.forEach(n => console.log(n));
+
+// Метод filter
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let newArr = [];
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] > 5) {
+//         newArr.push(numbers[i]);
+//     }
+// }
+
+// console.log(newArr);
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const newArr = numbers.filter(num => num > 5);
+// console.log(newArr);
+
+// Метод map
+
+// const fruits = ["Яблоко", "Банан", "Мандарин", "Груша"];
+
+// const changeArr = [];
+
+// for (let fr of fruits) {
+//     changeArr.push(fr.toUpperCase());
+// }
+// console.log(changeArr);
+
+// const fruits = ["Яблоко", "Банан", "Мандарин", "Груша"];
+
+// const changeArr = fruits.map(fr => fr.toUpperCase());
+
+// console.log(changeArr)
+
+// 1 задача
+// const numbers = [-7, 77, 812, -52, 72];
+
+// const positiveCount = numbers.filter(num => num > 0);
+
+// console.log("Кол-во положительных чисел: " + positiveCount.length);
+
+// const negativeCount = numbers.filter(num => num < 0);
+
+// console.log("Кол-во отрицательных чисел: " + negativeCount.length);
+
+// 2 задача
+// const strArr = ["JavaScript", "PHP", "Python", "Java"];
+
+// const changeStr = strArr.map(el => el.length);
+// console.log(changeStr)
+
+const strArr = ["JavaScript", "PHP", "Python", "Java"];
+
+function getLength() {
+    const changeStr = strArr.map(el => el.length);
+}
